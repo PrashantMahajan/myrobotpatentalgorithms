@@ -1,0 +1,18 @@
+     1: /*
+     2:  * main.c
+     3:  *
+     4:  *      Created on: Nov 24, 2011
+     5:  *              Author: Prashant
+     6:  */
+     7: 
+     8: #include <machinescience.h>
+     9: 
+    10: #include "RobotPathController.c"
+    11: 
+    12: int main (void) {
+    13:         struct RobotPathController v_objController;
+    14:         servo_control(ENABLE);
+    15:         v_objController = getNewRobotPathController();
+    16:         v_objController.moveBack(1);
+    17:         end();
+    18: }
