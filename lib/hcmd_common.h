@@ -1,0 +1,30 @@
+#define FORWARD 				0x00
+#define REVERSE					0x01
+#define SPIN_RIGHT				0x02
+#define SPIN_LEFT 				0x03
+#define MOTORA					0x00
+#define MOTORB					0x01
+#define SOLENOIDA				0x02
+#define SOLENOIDB				0x03
+#define KILL					0x00
+#define BREAK					0x01
+#define STOP					0x02		
+
+#define CMD_MOTOR_DRIVEMOTOR	0x37
+#define CMD_MOTOR_PNEUMATIC		0x38
+#define CMD_MOTOR_CURRENT		0x39
+#define CMD_MOTOR_ISRCSIG		0x3A
+#define CMD_MOTOR_READRCSIG		0x3B
+#define CMD_MOTOR_DRIVEROBOT	0x48
+#define CMD_MOTOR_STOPROBOT		0x49
+#define CMD_MOTOR_STOPMOTOR		0x4A
+#define CMD_MOTOR_PULSE			0x4B
+#define CMD_MOTOR_RCMOTOR		0x4C
+#define CMD_MOTOR_RCPNEUMATIC 	0x4D
+#define CMD_HCMD_READ_STATE		0x4E
+#define CMD_HCMD_WRITE_STATE	0x4F
+#define CMD_MOTOR_DRIVELIMIT	0x50
+#define CMD_HCMD_RAMPING		0x51
+
+#define MONITOR					0x02
+
